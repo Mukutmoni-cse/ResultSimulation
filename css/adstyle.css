@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+body {
+  margin: 0;
+  height: 60%;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 25px 16px 25px 30px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.active:hover {
+  background-color: rgba(221, 221, 221, 0.181);
+  color: black;
+}
+
+.topnav a.active1 {
+  text-align: center;
+  padding: 25px 16px 25px 1350px;
+}
+body{
+    background-image: url(student_image.jpg);
+    background-size: 1550px 800px;
+    background-repeat: no-repeat;
+    overflow: hidden;                             /** hidden side scroll **/ 
+}
+.I{
+    text-align: center;
+    font-weight: bold;
+}
+h1{
+    color: black;
+}
+.set{
+    width: 100%;
+    margin: 50px auto 0px 400px ;
+}
+.F
+{
+    width: 49%;
+    height: 100%;
+    padding: 80px 0px 0px 90px;
+    margin: 0px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.075);
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.281);
+}
+  input[type=text]{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=number]{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=text1]{
+    width: 70%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .C
+  {
+    width: 150%;
+  }
+  .S
+  {
+    width: 100%;
+    margin: 60px auto 0px 220px ;
+  }
+  input[type=submit] {
+    width: 20%;
+    background-color: #493d95;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #030a04a0;
+  }
+  textarea
+  {
+      resize: none;
+  }

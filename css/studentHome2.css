@@ -1,0 +1,55 @@
+.nav {
+    background-color: black;
+    opacity: 0.8;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+.nav-item {
+    font-size: x-large;
+}
+
+body {
+    background-image: url("https://previews.123rf.com/images/romaschka777/romaschka7771805/romaschka777180500070/100918376-hermoso-fondo-de-vector-para-una-postal-de-vacaciones-del-d%C3%ADa-del-maestro-p%C3%B3ster-pancarta-empaque-ma.jpg");
+}
+
+.grid{
+    font-size:large;
+    position: relative;
+    top: 5em;
+    left: 20em;
+}
+
+.grid table{
+    border: 1px solid black;
+    background-color: rgba(75, 46, 217, 0.118);
+
+}
+.grid td{
+    border: 1px solid black;
+    background-color: rgba(75, 46, 217, 0.118);
+}
+.grid td:hover{
+    background-color: rgba(137, 43, 226, 0.300);
+}
+
+.grid .marks{
+    padding: 1em 3em 1em 3em;
+}
+.info{
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+    top: 4em;
+    left: 20em;
+}
+.info td{
+    padding: 10px;
+}

@@ -1,0 +1,92 @@
+.nav {
+    background-color: black;
+    opacity: 0.8;
+    padding: 2em;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5em;
+    margin: 0;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+.nav-item {
+    font-size: x-large;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(contactimage.jpg);
+    background-size: 1550px 800px;
+    background-repeat: no-repeat;
+}
+
+.I {
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    color: white;
+}
+
+.set {
+    width: 100%;
+    margin: 50px auto 0px 450px;
+}
+
+.F {
+    width: 40%;
+    height: 70%;
+    padding: 30px;
+    margin: 5px;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.075);
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.281);
+}
+
+input[type=text] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.C {
+    width: 150%;
+}
+
+.S {
+    width: 100%;
+    margin: 50px auto 0px 200px;
+}
+
+input[type=submit] {
+    width: 20%;
+    background-color: #afad4c;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049c2;
+}
+
+textarea {
+    resize: none;
+}

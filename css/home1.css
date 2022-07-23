@@ -1,0 +1,81 @@
+    .nav {
+        background-color: black;
+        opacity: 0.8;
+        padding: 2em;
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 5em;
+        margin: 0;
+    }
+    
+    a {
+        color: blue;
+        text-decoration: none;
+    }
+    
+    .nav-item {
+        font-size: x-large;
+    }
+    
+    body {
+        margin: 0;
+        background-image: url("https://previews.123rf.com/images/romaschka777/romaschka7771805/romaschka777180500070/100918376-hermoso-fondo-de-vector-para-una-postal-de-vacaciones-del-d%C3%ADa-del-maestro-p%C3%B3ster-pancarta-empaque-ma.jpg");
+    }
+    
+    #signin {
+        position: relative;
+        left: 20em;
+        top: 10em;
+        border-collapse: separate;
+        border-spacing: 0 1em;
+        padding: 1em;
+        background-color: rgba(75, 46, 217, 0.118);
+        box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.281);
+    }
+    
+    label {
+        font-size: xx-large;
+    }
+    
+    footer {
+        background-color: rgb(151, 147, 147, 0.3);
+        opacity: 0.3;
+        position: relative;
+        top: 21em;
+        padding: 1em;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
+    input {
+        padding: 0.5em;
+    }
+    
+    button {
+        padding: 0.5em 1em 0.5em 1em;
+        margin-left: 2em;
+        border-radius: 1em;
+    }
+    
+    #Error {
+        display: inline-flex;
+        color: red;
+        font-size: large;
+    }
+    .marqdiv{
+        text-align: center;
+        position: relative;
+        top: 15em;
+    }
+    .marq{
+        padding-top:15px;
+        padding-bottom:15px;
+        background-color: darkmagenta;
+        opacity: 0.8;
+    }
+    .geek1 {
+        font-size:26px;
+        font-weight:bold;
+        color:black;
+        padding-bottom:10px;
+    }

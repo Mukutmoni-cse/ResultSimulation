@@ -1,0 +1,62 @@
+.nav {
+    background-color: black;
+    opacity: 0.8;
+    padding: 2em;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 5em;
+    margin: 0;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+.nav-item {
+    font-size: x-large;
+}
+
+body {
+    margin: 0;
+    background-image: url("https://wallpaperaccess.com/full/16676.jpg")
+}
+
+#error {
+    display: inline-flex;
+    color: red;
+    font-size: large;
+}
+
+#login {
+    position: relative;
+    left: 34em;
+    top: 10em;
+    border-collapse: separate;
+    border-spacing: 0 1em;
+    padding: 3em;
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    background-color: rgba(230, 67, 219, 0.066);
+    box-shadow: 2px 5px 15px rgba(4, 4, 4, 0.281);
+}
+
+label {
+    font-size: xx-large;
+}
+
+input {
+    padding: 0.5em;
+}
+
+button {
+    padding: 0.5em 1em 0.5em 1em;
+    margin-left: 2em;
+    border-radius: 1em;
+}
+
+#submit {
+    position: relative;
+    top: 1.5em;
+    left: 7em;
+}
